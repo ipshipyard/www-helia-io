@@ -34,7 +34,7 @@ jobs:
           dp_url: https://api.distributed.press
           refresh_token: ${{ secrets.DISTRIBUTED_PRESS_TOKEN }}
           site_url: helia.io
-          deploy_http: true
+          deploy_http: false
           deploy_hyper: true
           deploy_ipfs: true
 
