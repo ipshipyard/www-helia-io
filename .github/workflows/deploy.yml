@@ -59,7 +59,7 @@ jobs:
         uses: ipfs/dnslink-action@v0.1
         with:
           cid: ${{ needs.deploy-ipfs.outputs.cid }}
-          dnslink_domain: 'helia.io'
+          dnslink_domain: 'helia-io.dnslinks.ipshipyard.tech'
           cf_record_id: ${{ secrets.CF_DNS_RECORD_ID }}
           cf_zone_id: ${{ secrets.CF_DNS_ZONE_ID }}
           cf_auth_token: ${{ secrets.CF_DNS_AUTH_TOKEN }}
